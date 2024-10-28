@@ -1,5 +1,5 @@
 {
-    "name": "pear/my_html_table",
+    "name": "jurig/html_table",
     "description": "Create complex HTML tables from PHP",
     "type": "library",
     "homepage": "http://pear.php.net/package/HTML_Table",
