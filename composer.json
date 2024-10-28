@@ -1,6 +1,6 @@
 {
     "name": "jurig/html_table",
-    "description": "Create complex HTML tables from PHP",
+    "description": "My Custom Fork of Pear HTML tables",
     "type": "library",
     "homepage": "http://pear.php.net/package/HTML_Table",
     "license": "BSD-3-Clause",
