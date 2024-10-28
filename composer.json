@@ -33,10 +33,6 @@
         "issues": "http://pear.php.net/bugs/search.php?cmd=display&package_name[]=HTML_Table",
         "source": "https://github.com/pear/HTML_Table"
     },
-    "require": {
-        "pear/pear-core-minimal": "^1.10.0",
-        "pear/html_common": "^1.2.5"
-    },
     "require-dev": {
         "pear/pear-core": "*"
     }
