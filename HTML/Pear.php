@@ -155,7 +155,7 @@ class PEAR
      * @access public
      * @return void
      */
-    function __construct($error_class = null)
+    public function __construct($error_class = null)
     {
         $classname = strtolower(get_class($this));
         if ($this->_debug) {
@@ -193,7 +193,7 @@ class PEAR
      * @access public
      * @return void
      */
-    function _PEAR() {
+    public function _PEAR() {
         if ($this->_debug) {
             printf("PEAR destructor called, class=%s\n", strtolower(get_class($this)));
         }
@@ -390,7 +390,7 @@ class PEAR
      * @return int     the new depth of the "expected errors" stack
      * @access public
      */
-    function expectError($code = '*')
+    public function expectError($code = '*'):int
     {
         if (is_array($code)) {
             array_push($this->_expected_errors, $code);
