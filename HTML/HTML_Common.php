@@ -98,10 +98,10 @@ class HTML_Common
      * Returns the lineEnd
      *
      * @since     1.7
-     * @access    private
+     * @access    protected
      * @return    string
      */
-    private function _getLineEnd()
+    protected function _getLineEnd()
     {
         return $this->_lineEnd;
     } // end func getLineEnd
@@ -110,7 +110,7 @@ class HTML_Common
      * Returns a string containing the unit for indenting HTML
      *
      * @since     1.7
-     * @access    private
+     * @access    protected
      * @return    string
      */
     protected function _getTab()
@@ -122,9 +122,9 @@ class HTML_Common
      * Returns a string containing the offset for the whole HTML code
      *
      * @return    string
-     * @access   private
+     * @access   protected
      */
-    private function _getTabs()
+    protected function _getTabs()
     {
         return str_repeat($this->_getTab(), $this->_tabOffset);
     } // end func _getTabs
@@ -133,9 +133,9 @@ class HTML_Common
      * Returns an HTML formatted attribute string
      * @param    array   $attributes
      * @return   string
-     * @access   private
+     * @access   protected
      */
-    private function _getAttrString($attributes)
+    protected function _getAttrString($attributes)
     {
         $strAttr = '';
 
@@ -151,10 +151,10 @@ class HTML_Common
     /**
      * Returns a valid atrributes array from either a string or array
      * @param    mixed   $attributes     Either a typical HTML attribute string or an associative array
-     * @access   private
+     * @access   protected
      * @return   array
      */
-    private function _parseAttributes($attributes)
+    protected function _parseAttributes($attributes)
     {
         if (is_array($attributes)) {
             $ret = array();
@@ -197,10 +197,10 @@ class HTML_Common
      * @param     string    $attr         Attribute
      * @param     array     $attributes   Array of attribute
      * @since     1.0
-     * @access    private
+     * @access    protected
      * @return    bool
      */
-    private function _getAttrKey($attr, $attributes)
+    protected function _getAttrKey($attr, $attributes)
     {
         if (isset($attributes[strtolower($attr)])) {
             return true;
@@ -213,9 +213,9 @@ class HTML_Common
      * Updates the attributes in $attr1 with the values in $attr2 without changing the other existing attributes
      * @param    array   $attr1      Original attributes array
      * @param    array   $attr2      New attributes array
-     * @access   private
+     * @access   protected
      */
-    private function _updateAttrArray(&$attr1, $attr2)
+    protected function _updateAttrArray(&$attr1, $attr2)
     {
         if (!is_array($attr2)) {
             return false;
@@ -231,10 +231,10 @@ class HTML_Common
      * @param     string    $attr           Attribute name
      * @param     array     $attributes     Attribute array
      * @since     1.4
-     * @access    private
+     * @access    protected
      * @return    void
      */
-    private function _removeAttr($attr, &$attributes)
+    protected function _removeAttr($attr, &$attributes)
     {
         $attr = strtolower($attr);
         if (isset($attributes[$attr])) {
