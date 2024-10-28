@@ -90,7 +90,7 @@ namespace Jurig;
  * @version    Release: @package_version@
  * @link       http://pear.php.net/package/HTML_Table
  */
-class HTML_Table extends \Jurig\HTML_Common {
+class HTML_Table extends HTML_Common {
 
     /**
      * Value to insert into empty cells. This is used as a default for
