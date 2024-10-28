@@ -5,7 +5,9 @@
     "homepage": "http://pear.php.net/package/HTML_Table",
     "license": "BSD-3-Clause",
     "autoload": {
-        "psr-0": { "HTML" : "HTML/" }
+        "psr-4": {
+            "Jurig\\": "HTML"
+        }
     },
     "support": {
         "issues": "http://pear.php.net/bugs/search.php?cmd=display&package_name[]=HTML_Table",
