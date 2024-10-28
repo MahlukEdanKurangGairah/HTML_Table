@@ -4,28 +4,6 @@
     "type": "library",
     "homepage": "http://pear.php.net/package/HTML_Table",
     "license": "BSD-3-Clause",
-    "authors": [
-        {
-            "email": "bmansion@mamasam.com",
-            "name": "Bertrand Mansion",
-            "role": "Lead"
-        },
-        {
-            "email": "thesaur@php.net",
-            "name": "Klaus Guenther",
-            "role": "Lead"
-        },
-        {
-            "email": "dufuz@php.net",
-            "name": "Helgi &#222;ormar",
-            "role": "Lead"
-        },
-        {
-            "email": "wiesemann@php.net",
-            "name": "Mark Wiesemann",
-            "role": "Lead"
-        }
-    ],
     "autoload": {
         "psr-0": { "HTML" : "HTML/" }
     },
