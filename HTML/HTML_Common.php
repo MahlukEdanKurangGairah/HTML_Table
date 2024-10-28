@@ -36,40 +36,40 @@ class HTML_Common
     /**
      * Associative array of attributes
      * @var     array
-     * @access  private
+     * @access  protected
      */
-    var $_attributes = array();
+    protected $_attributes = array();
 
     /**
      * Tab offset of the tag
      * @var     int
-     * @access  private
+     * @access  protected
      */
-    var $_tabOffset = 0;
+    protected $_tabOffset = 0;
 
     /**
      * Tab string
      * @var       string
      * @since     1.7
-     * @access    private
+     * @access    protected
      */
-    var $_tab = "\11";
+    protected $_tab = "\11";
 
     /**
      * Contains the line end string
      * @var       string
      * @since     1.7
-     * @access    private
+     * @access    protected
      */
-    var $_lineEnd = "\12";
+    protected $_lineEnd = "\12";
 
     /**
      * HTML comment on the object
      * @var       string
      * @since     1.5
-     * @access    private
+     * @access    protected
      */
-    var $_comment = '';
+    protected $_comment = '';
 
     /**
      * Class constructor
@@ -89,7 +89,7 @@ class HTML_Common
      * @access   public
      * @returns  double
      */
-    public function apiVersion()
+    public function apiVersion():double
     {
         return 1.7;
     } // end func apiVersion
