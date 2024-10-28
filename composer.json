@@ -2,7 +2,7 @@
     "name": "jurig/html_table",
     "description": "My Custom Fork of Pear HTML tables",
     "type": "library",
-    "homepage": "http://pear.php.net/package/HTML_Table",
+    "homepage": "https://github.com/MahlukEdanKurangGairah/HTML_Table",
     "license": "BSD-3-Clause",
     "autoload": {
         "psr-4": {
@@ -10,7 +10,6 @@
         }
     },
     "support": {
-        "issues": "http://pear.php.net/bugs/search.php?cmd=display&package_name[]=HTML_Table",
-        "source": "https://github.com/pear/HTML_Table"
+        "source": "https://github.com/MahlukEdanKurangGairah/HTML_Table"
     }
 }
