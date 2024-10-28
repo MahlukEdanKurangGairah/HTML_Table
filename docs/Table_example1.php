@@ -1,12 +1,10 @@
 <?php
-
+use Jurig\HTML_Table;
 /*
 * This example shows how you can set row and col attributes
 * with HTML_Table.
 */
 // $Id$
-
-require_once 'HTML/Table.php';
 $table = new HTML_Table('width = "400"');
 
 $data[0][] = 'i am';
