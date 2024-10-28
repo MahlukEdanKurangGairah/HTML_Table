@@ -32,8 +32,5 @@
     "support": {
         "issues": "http://pear.php.net/bugs/search.php?cmd=display&package_name[]=HTML_Table",
         "source": "https://github.com/pear/HTML_Table"
-    },
-    "require-dev": {
-        "pear/pear-core": "*"
     }
 }
