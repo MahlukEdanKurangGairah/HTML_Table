@@ -68,7 +68,7 @@ namespace Jurig;
  * @version    Release: @package_version@
  * @link       http://pear.php.net/package/HTML_Table
  */
-class HTML_Table_Storage extends HTML_Common {
+class HTML_Table_Storage extends \Jurig\HTML_Common {
 
     /**
      * Value to insert into empty cells
