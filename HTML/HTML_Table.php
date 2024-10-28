@@ -65,9 +65,9 @@ namespace Jurig;
 /**
 * Requires PEAR, HTML_Common and HTML_Table_Storage
 */
-require_once __DIR__.'/PEAR.php';
-require_once __DIR__.'/HTML_Common.php';
-require_once __DIR__.'/HTML_Table_Storage.php';
+//require_once __DIR__.'/PEAR.php';
+//require_once __DIR__.'/HTML_Common.php';
+//require_once __DIR__.'/HTML_Table_Storage.php';
 
 /**
  * PEAR::HTML_Table makes the design of HTML tables easy, flexible, reusable and efficient.
@@ -93,7 +93,7 @@ require_once __DIR__.'/HTML_Table_Storage.php';
  * @version    Release: @package_version@
  * @link       http://pear.php.net/package/HTML_Table
  */
-class HTML_Table extends HTML_Common {
+class HTML_Table extends \Jurig\HTML_Common {
 
     /**
      * Value to insert into empty cells. This is used as a default for
