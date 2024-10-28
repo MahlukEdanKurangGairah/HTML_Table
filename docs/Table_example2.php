@@ -1,12 +1,10 @@
 <?php
-
+use Jurig\HTML_Table;
 /*
 * This example will output html websafe colors in a table
 * using HTML_Table.
 */
 // $Id$
-
-require_once 'HTML/Table.php';
 
 $table = new HTML_Table('width = "100%"');
 $table->setCaption('256 colors table');
