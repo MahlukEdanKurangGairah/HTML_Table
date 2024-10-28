@@ -113,7 +113,7 @@ class HTML_Common
      * @access    private
      * @return    string
      */
-    private function _getTab()
+    protected function _getTab()
     {
         return $this->_tab;
     } // end func _getTab
