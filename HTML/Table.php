@@ -183,19 +183,6 @@ class HTML_Table extends HTML_Common {
     }
 
     /**
-     * PHP4 constructor for backwards compatibility
-     *
-     * @param array $attributes Associative array of table tag attributes
-     * @param int   $tabOffset  Tab offset of the table
-     * @param bool  $useTGroups Whether to use <thead>, <tfoot> and
-     *                          <tbody> or not
-     */
-    public function HTML_Table($attributes = null, $tabOffset = 0, $useTGroups = false)
-    {
-        self::__construct($attributes, $tabOffset, $useTGroups);
-    }
-
-    /**
      * Returns the API version
      * @access  public
      * @return  double
