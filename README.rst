@@ -18,33 +18,12 @@ For auto filling of data and such then check out
 Installation
 ============
 
-PEAR
-====
-::
-
-    $ pear install HTML_Table
-
-
 Composer
 ========
 ::
 
-    $ composer require pear/html_table
+    $ composer require jurig/html_table
 
 
-=====
-Links
-=====
-Homepage
-  http://pear.php.net/package/HTML_Table
-Bug tracker
-  http://pear.php.net/bugs/search.php?cmd=display&package_name[]=HTML_Table
-Documentation
-  http://pear.php.net/manual/en/package.html.html-table.php
-Unit test status
-  https://travis-ci.org/pear/HTML_Table
-
-  .. image:: https://travis-ci.org/pear/HTML_Table.svg?branch=master
-     :target: https://travis-ci.org/pear/HTML_Table
 Packagist
-  https://packagist.org/packages/pear/html_table
+  https://packagist.org/packages/jurig/html_table
