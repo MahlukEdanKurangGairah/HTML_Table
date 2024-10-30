@@ -73,52 +73,52 @@ class HTML_Table_Storage extends \Jurig\HTML_Common {
     /**
      * Value to insert into empty cells
      * @var    string
-     * @access private
+     * @access protected
      */
-    var $_autoFill = '&nbsp;';
+    protected $_autoFill = '&nbsp;';
 
     /**
      * Automatically adds a new row or column if a given row or column index
      * does not exist
      * @var    bool
-     * @access private
+     * @access protected
      */
-    var $_autoGrow = true;
+    protected $_autoGrow = true;
 
     /**
      * Array containing the table structure
      * @var     array
-     * @access  private
+     * @access  protected
      */
-    var $_structure = array();
+    protected $_structure = array();
 
     /**
      * Number of rows composing in the table
      * @var     int
-     * @access  private
+     * @access  protected
      */
-    var $_rows = 0;
+    protected $_rows = 0;
 
     /**
      * Number of column composing the table
      * @var     int
-     * @access  private
+     * @access  protected
      */
-    var $_cols = 0;
+    protected $_cols = 0;
 
     /**
      * Tracks the level of nested tables
      * @var    int
-     * @access private
+     * @access protected
      */
-    var $_nestLevel = 0;
+    protected $_nestLevel = 0;
 
     /**
      * Whether to use <thead>, <tfoot> and <tbody> or not
      * @var    bool
-     * @access private
+     * @access protected
      */
-    var $_useTGroups = false;
+    protected $_useTGroups = false;
 
     /**
      * Class constructor
