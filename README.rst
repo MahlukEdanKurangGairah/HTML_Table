@@ -1,6 +1,7 @@
 **********
 HTML_Table
 **********
+This is fork of Pear HTML_Table.
 Makes the design of HTML tables easy, flexible, reusable and efficient.
 
 - Lots of customization options.
