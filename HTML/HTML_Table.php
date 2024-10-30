@@ -105,46 +105,46 @@ class HTML_Table extends HTML_Common {
      * body index does not exist.
      * This is used as a default for newly-created tbodies.
      * @var    bool
-     * @access private
+     * @access protected
      */
-    var $_autoGrow = true;
+    protected $_autoGrow = true;
 
     /**
      * Array containing the table caption
      * @var     array
-     * @access  private
+     * @access  protected
      */
-    var $_caption = array();
+    protected $_caption = array();
 
     /**
      * Array containing the table column group specifications
      *
      * @var     array
      * @author  Laurent Laville (pear at laurent-laville dot org)
-     * @access  private
+     * @access  protected
      */
-    var $_colgroup = array();
+    protected $_colgroup = array();
 
     /**
      * HTML_Table_Storage object for the (t)head of the table
      * @var    object
-     * @access private
+     * @access protected
      */
-    var $_thead = null;
+    protected $_thead = null;
 
     /**
      * HTML_Table_Storage object for the (t)foot of the table
      * @var    object
-     * @access private
+     * @access protected
      */
-    var $_tfoot = null;
+    protected $_tfoot = null;
 
     /**
      * HTML_Table_Storage object for the (t)body of the table
      * @var    object
-     * @access private
+     * @access protected
      */
-    var $_tbodies = array();
+    protected $_tbodies = array();
 
     /**
      * Number of bodies in the table
@@ -156,9 +156,9 @@ class HTML_Table extends HTML_Common {
     /**
      * Whether to use <thead>, <tfoot> and <tbody> or not
      * @var    bool
-     * @access private
+     * @access protected
      */
-    var $_useTGroups = false;
+    protected $_useTGroups = false;
 
     /**
      * Class constructor
@@ -186,7 +186,7 @@ class HTML_Table extends HTML_Common {
      * @return  double
      * @deprecated
      */
-    public function apiVersion()
+    public function apiVersion():double
     {
         return 1.7;
     }
