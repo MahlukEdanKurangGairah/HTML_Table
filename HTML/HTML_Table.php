@@ -186,7 +186,7 @@ class HTML_Table extends HTML_Common {
      * @return  double
      * @deprecated
      */
-    public function apiVersion():double
+    public function apiVersion()
     {
         return 1.7;
     }
