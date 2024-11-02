@@ -90,7 +90,7 @@ class PEAR
      * @var     bool
      * @access  private
      */
-    var $_debug = false;
+    private $_debug = false;
 
     /**
      * Default error mode for this object.
@@ -98,7 +98,7 @@ class PEAR
      * @var     int
      * @access  private
      */
-    var $_default_error_mode = null;
+    private $_default_error_mode = null;
 
     /**
      * Default error options used for this object when error mode
@@ -107,7 +107,7 @@ class PEAR
      * @var     int
      * @access  private
      */
-    var $_default_error_options = null;
+    private $_default_error_options = null;
 
     /**
      * Default error handler (callback) for this object, if error mode is
@@ -116,7 +116,7 @@ class PEAR
      * @var     string
      * @access  private
      */
-    var $_default_error_handler = '';
+    private $_default_error_handler = '';
 
     /**
      * Which class to use for error objects.
@@ -124,7 +124,7 @@ class PEAR
      * @var     string
      * @access  private
      */
-    var $_error_class = 'PEAR_Error';
+    private $_error_class = 'PEAR_Error';
 
     /**
      * An array of expected errors.
@@ -132,7 +132,7 @@ class PEAR
      * @var     array
      * @access  private
      */
-    var $_expected_errors = array();
+    private $_expected_errors = array();
 
     /**
      * List of methods that can be called both statically and non-statically.
