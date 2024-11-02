@@ -96,9 +96,9 @@ class HTML_Table extends HTML_Common {
      * Value to insert into empty cells. This is used as a default for
      * newly-created tbodies.
      * @var    string
-     * @access private
+     * @access protected
      */
-    var $_autoFill = '&nbsp;';
+    protected $_autoFill = '&nbsp;';
 
     /**
      * Automatically adds a new row, column, or body if a given row, column, or
