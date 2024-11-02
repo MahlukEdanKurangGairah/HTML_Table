@@ -89,7 +89,7 @@ class HTML_Common
      * @access   public
      * @returns  double
      */
-    public function apiVersion():double
+    public function apiVersion()
     {
         return 1.7;
     } // end func apiVersion
